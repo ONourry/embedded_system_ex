@@ -1,4 +1,4 @@
-# gnc: An example project of BridgePoint for controlling quad copter for APRIS Robot Challange
+# 九州大学チームA
 
 ## How to run
 
