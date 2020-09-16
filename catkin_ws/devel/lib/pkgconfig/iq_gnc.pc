@@ -1,1 +1,0 @@
-/home/ubuntu/embedded_system_ex/catkin2_ws/devel/.private/iq_gnc/lib/pkgconfig/iq_gnc.pc

@@ -1,6 +1,0 @@
-[35m[1mScanning dependencies of target ctrl[0m
-make[2]: *** No rule to make target 'CMakeFiles/ctrl.dir/build'.  Stop.
-make[1]: *** [CMakeFiles/ctrl.dir/all] Error 2
-CMakeFiles/Makefile2:2499: recipe for target 'CMakeFiles/ctrl.dir/all' failed
-Makefile:140: recipe for target 'all' failed
-make: *** [all] Error 2
