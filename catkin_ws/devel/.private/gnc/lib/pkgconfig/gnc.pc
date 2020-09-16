@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/embedded_system_ex/catkin2_ws/devel/.private/gnc
+
+Name: gnc
+Description: Description of gnc
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
