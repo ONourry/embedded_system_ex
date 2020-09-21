@@ -1,1 +1,1 @@
-/home/ubuntu/embedded_system_ex/catkin2_ws/devel/.private/catkin_tools_prebuild/local_setup.sh
+/home/ubuntu/embedded_system_ex/catkin_ws/devel/.private/catkin_tools_prebuild/local_setup.sh

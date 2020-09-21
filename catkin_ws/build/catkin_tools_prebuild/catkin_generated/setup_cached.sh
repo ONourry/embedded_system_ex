@@ -8,9 +8,7 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/ubuntu/embedded_system_ex/catkin_ws/devel/.private/catkin_tools_prebuild:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/ubuntu/embedded_system_ex/catkin_ws/devel/.private/catkin_tools_prebuild/lib:$LD_LIBRARY_PATH"
 export PATH="/opt/ros/melodic/bin:/home/ubuntu/.local/bin:/opt/BridgePoint:/usr/lib/ccache:/home/ubuntu/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-6-2017-q2-update/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
-export PKG_CONFIG_PATH="/home/ubuntu/embedded_system_ex/catkin_ws/devel/.private/catkin_tools_prebuild/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD="/home/ubuntu/embedded_system_ex/catkin_ws/build/catkin_tools_prebuild"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/ubuntu/embedded_system_ex/catkin_ws/devel/.private/catkin_tools_prebuild/share/common-lisp"
-export ROS_PACKAGE_PATH="/home/ubuntu/embedded_system_ex/catkin2_ws/build/catkin_tools_prebuild:/home/ubuntu/embedded_system_ex/catkin_ws/build/catkin_tools_prebuild:$ROS_PACKAGE_PATH"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/ubuntu/embedded_system_ex/catkin_ws/devel/.private/catkin_tools_prebuild/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/ubuntu/embedded_system_ex/catkin_ws/build/catkin_tools_prebuild:$ROS_PACKAGE_PATH"
