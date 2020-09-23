@@ -28,9 +28,9 @@ rosrun gnc ctrl
 ```
 
 # scenario
-## Rescure Mission
-1. Explotion happend.
-2. Use drone to locate survive.
-3. Start to fly from firefigher.
-4. Look aruound the buildings(fire station, police station, industrial building)
-5. Go back to firefighter.
+## Rescue Mission
+1. Explosion happened.
+2. A drone is used to locate survivors.
+3. The drone starts to fly from the firefighters' location.
+4. Look around the collapsed buildings(fire station, police station, industrial building)
+5. Go back to firefighters.
