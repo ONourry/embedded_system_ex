@@ -1,3 +1,3 @@
 #!/bin/bash
 
-gazebo --verbose ./gazebo.world
+gazebo --verbose ./super-gazebo.world
