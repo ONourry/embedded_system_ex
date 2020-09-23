@@ -1,0 +1,75 @@
+-- BP 7.1.6 content: Package syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO EP_PKG
+	VALUES ("286cb451-34ba-4e61-bf42-3a417a4e61f9",
+	"00000000-0000-0000-0000-000000000000",
+	"0eef6426-e634-4af4-b183-e6345bdaccf8",
+	'Functions',
+	'',
+	0);
+INSERT INTO GD_MD
+	VALUES ("e19642c7-6e8a-419b-b91d-7795ad79816a",
+	112,
+	"286cb451-34ba-4e61-bf42-3a417a4e61f9",
+	108,
+	0,
+	0,
+	1,
+	1,
+	1,
+	12,
+	1,
+	0,
+	0,
+	0,
+	0,
+	0,
+	'',
+	'exercise::Library::Control::Functions');
+INSERT INTO DIM_DIA
+	VALUES ("e19642c7-6e8a-419b-b91d-7795ad79816a",
+	'',
+	1.000000,
+	0.000000,
+	0.000000,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO S_SYNC
+	VALUES ("0a6c2e7b-ebb6-41c0-b4c3-93a854567d41",
+	"00000000-0000-0000-0000-000000000000",
+	'setup',
+	'',
+	'create object instance ctrl of Controller;
+generate Controller1:''start'' to ctrl;
+',
+	"ba5eda7a-def5-0000-0000-000000000000",
+	1,
+	'',
+	0);
+INSERT INTO PE_PE
+	VALUES ("0a6c2e7b-ebb6-41c0-b4c3-93a854567d41",
+	1,
+	"286cb451-34ba-4e61-bf42-3a417a4e61f9",
+	"00000000-0000-0000-0000-000000000000",
+	1);
+INSERT INTO PE_PE
+	VALUES ("286cb451-34ba-4e61-bf42-3a417a4e61f9",
+	1,
+	"00000000-0000-0000-0000-000000000000",
+	"535b0f7d-70c8-4708-a9ea-5cfa1a55cca9",
+	7);
+INSERT INTO C_C_PROXY
+	VALUES ("535b0f7d-70c8-4708-a9ea-5cfa1a55cca9",
+	"00000000-0000-0000-0000-000000000000",
+	"00000000-0000-0000-0000-000000000000",
+	'Control',
+	'',
+	0,
+	"00000000-0000-0000-0000-000000000000",
+	0,
+	'',
+	'../Control.xtuml');
+INSERT INTO S_SYS_PROXY
+	VALUES ("0eef6426-e634-4af4-b183-e6345bdaccf8",
+	'exercise',
+	1,
+	'../../../exercise.xtuml');

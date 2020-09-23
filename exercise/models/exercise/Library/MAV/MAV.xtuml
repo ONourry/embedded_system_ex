@@ -1,0 +1,348 @@
+-- BP 7.1.6 content: Component syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO C_C
+	VALUES ("a9477f94-c4d2-43b8-9741-5c57834f54b0",
+	"00000000-0000-0000-0000-000000000000",
+	"00000000-0000-0000-0000-000000000000",
+	'MAV',
+	'',
+	0,
+	"00000000-0000-0000-0000-000000000000",
+	0,
+	'');
+INSERT INTO GD_MD
+	VALUES ("d852a215-2684-4a5c-990f-d752d52a8ad7",
+	111,
+	"a9477f94-c4d2-43b8-9741-5c57834f54b0",
+	98,
+	0,
+	0,
+	1,
+	1,
+	1,
+	12,
+	1,
+	0,
+	0,
+	0,
+	0,
+	0,
+	'',
+	'exercise::Library::MAV');
+INSERT INTO GD_GE
+	VALUES ("1864b10a-4805-43ff-aadb-cca1d466b9bd",
+	"d852a215-2684-4a5c-990f-d752d52a8ad7",
+	"a9477f94-c4d2-43b8-9741-5c57834f54b0",
+	103,
+	0,
+	'exercise::Library::MAV');
+INSERT INTO GD_SHP
+	VALUES ("1864b10a-4805-43ff-aadb-cca1d466b9bd");
+INSERT INTO GD_CTR
+	VALUES ("1864b10a-4805-43ff-aadb-cca1d466b9bd");
+INSERT INTO DIM_ND
+	VALUES (751.000000,
+	314.000000,
+	"1864b10a-4805-43ff-aadb-cca1d466b9bd");
+INSERT INTO DIM_GE
+	VALUES (4100.000000,
+	3100.000000,
+	"1864b10a-4805-43ff-aadb-cca1d466b9bd",
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO DIM_ELE
+	VALUES ("1864b10a-4805-43ff-aadb-cca1d466b9bd",
+	0,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO DIM_CON
+	VALUES ("393f5df3-fce5-4e54-90d9-82ba7bce42bf",
+	4851.000000,
+	3276.000000,
+	"1864b10a-4805-43ff-aadb-cca1d466b9bd");
+INSERT INTO GD_GE
+	VALUES ("ccbded45-59ef-4f0b-894b-6f7b649ce9d1",
+	"d852a215-2684-4a5c-990f-d752d52a8ad7",
+	"3747fd71-e4e4-4d47-a31f-7826aafe8e4a",
+	94,
+	0,
+	'exercise::Library::MAV::Port1::mavcontrol');
+INSERT INTO GD_CON
+	VALUES ("ccbded45-59ef-4f0b-894b-6f7b649ce9d1",
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO GD_CTXT
+	VALUES ("d5badcb9-3818-4249-b06b-1c9a90c17605",
+	"ccbded45-59ef-4f0b-894b-6f7b649ce9d1",
+	0,
+	0.000000,
+	0.000000);
+INSERT INTO DIM_ND
+	VALUES (0.000000,
+	0.000000,
+	"d5badcb9-3818-4249-b06b-1c9a90c17605");
+INSERT INTO DIM_GE
+	VALUES (0.000000,
+	0.000000,
+	"d5badcb9-3818-4249-b06b-1c9a90c17605",
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO DIM_ELE
+	VALUES ("d5badcb9-3818-4249-b06b-1c9a90c17605",
+	0,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO GD_CTXT
+	VALUES ("1ca7f129-e38a-4977-9e8a-fc8c2297defe",
+	"ccbded45-59ef-4f0b-894b-6f7b649ce9d1",
+	2,
+	0.000000,
+	0.000000);
+INSERT INTO DIM_ND
+	VALUES (0.000000,
+	0.000000,
+	"1ca7f129-e38a-4977-9e8a-fc8c2297defe");
+INSERT INTO DIM_GE
+	VALUES (0.000000,
+	0.000000,
+	"1ca7f129-e38a-4977-9e8a-fc8c2297defe",
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO DIM_ELE
+	VALUES ("1ca7f129-e38a-4977-9e8a-fc8c2297defe",
+	0,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO GD_CTXT
+	VALUES ("8f4ecba6-af87-4c0e-b7b7-d55417c1436b",
+	"ccbded45-59ef-4f0b-894b-6f7b649ce9d1",
+	1,
+	0.000000,
+	0.000000);
+INSERT INTO DIM_ND
+	VALUES (0.000000,
+	0.000000,
+	"8f4ecba6-af87-4c0e-b7b7-d55417c1436b");
+INSERT INTO DIM_GE
+	VALUES (0.000000,
+	0.000000,
+	"8f4ecba6-af87-4c0e-b7b7-d55417c1436b",
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO DIM_ELE
+	VALUES ("8f4ecba6-af87-4c0e-b7b7-d55417c1436b",
+	0,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO GD_LS
+	VALUES ("07ea2f6a-e475-4120-9d9d-904aa3bb9fda",
+	"ccbded45-59ef-4f0b-894b-6f7b649ce9d1",
+	"00000000-0000-0000-0000-000000000000",
+	"1c979297-1a40-43ea-b73a-eb83b29297c6",
+	"1cd5de07-136d-4785-a068-e6b13245b86d");
+INSERT INTO DIM_WAY
+	VALUES ("1c979297-1a40-43ea-b73a-eb83b29297c6",
+	4851.000000,
+	3276.000000,
+	"ccbded45-59ef-4f0b-894b-6f7b649ce9d1",
+	"00000000-0000-0000-0000-000000000000",
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO DIM_WAY
+	VALUES ("1cd5de07-136d-4785-a068-e6b13245b86d",
+	4926.000000,
+	3276.000000,
+	"ccbded45-59ef-4f0b-894b-6f7b649ce9d1",
+	"00000000-0000-0000-0000-000000000000",
+	"1c979297-1a40-43ea-b73a-eb83b29297c6");
+INSERT INTO DIM_GE
+	VALUES (0.000000,
+	0.000000,
+	"ccbded45-59ef-4f0b-894b-6f7b649ce9d1",
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO DIM_ELE
+	VALUES ("ccbded45-59ef-4f0b-894b-6f7b649ce9d1",
+	0,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO DIM_ED
+	VALUES ("393f5df3-fce5-4e54-90d9-82ba7bce42bf",
+	"00000000-0000-0000-0000-000000000000",
+	"ccbded45-59ef-4f0b-894b-6f7b649ce9d1");
+INSERT INTO DIM_DIA
+	VALUES ("d852a215-2684-4a5c-990f-d752d52a8ad7",
+	'',
+	1.000000,
+	0.000000,
+	0.000000,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO C_PO
+	VALUES ("3cff98f0-b291-4943-8d5b-2a648bd3ffc1",
+	"a9477f94-c4d2-43b8-9741-5c57834f54b0",
+	'Port1',
+	0,
+	0);
+INSERT INTO C_IR
+	VALUES ("3747fd71-e4e4-4d47-a31f-7826aafe8e4a",
+	"c703e3a6-7a8a-4269-8c3c-4d399122b004",
+	"00000000-0000-0000-0000-000000000000",
+	"3cff98f0-b291-4943-8d5b-2a648bd3ffc1");
+INSERT INTO C_P
+	VALUES ("3747fd71-e4e4-4d47-a31f-7826aafe8e4a",
+	'mavcontrol',
+	'Unnamed Interface',
+	'',
+	'MAV::Port1::mavcontrol');
+INSERT INTO SPR_PEP
+	VALUES ("b1fd3145-17c0-4b95-b0be-14b636877975",
+	"0f639670-3bc8-462a-9d84-885d15ff4608",
+	"3747fd71-e4e4-4d47-a31f-7826aafe8e4a");
+INSERT INTO SPR_PO
+	VALUES ("b1fd3145-17c0-4b95-b0be-14b636877975",
+	'init',
+	'',
+	'',
+	3,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("0f639670-3bc8-462a-9d84-885d15ff4608",
+	"c703e3a6-7a8a-4269-8c3c-4d399122b004",
+	-1,
+	'init',
+	'',
+	'../../Interfaces/mavcontrol/mavcontrol.xtuml');
+INSERT INTO SPR_PEP
+	VALUES ("60745e3e-5ba0-425c-8a45-25c7447c122c",
+	"176a3e16-663c-43d8-bcd3-58b53a9e2464",
+	"3747fd71-e4e4-4d47-a31f-7826aafe8e4a");
+INSERT INTO SPR_PO
+	VALUES ("60745e3e-5ba0-425c-8a45-25c7447c122c",
+	'takeoff',
+	'',
+	'',
+	3,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("176a3e16-663c-43d8-bcd3-58b53a9e2464",
+	"c703e3a6-7a8a-4269-8c3c-4d399122b004",
+	-1,
+	'takeoff',
+	'',
+	'../../Interfaces/mavcontrol/mavcontrol.xtuml');
+INSERT INTO SPR_PEP
+	VALUES ("3536c82c-8340-4104-91c3-cdf26a65588c",
+	"1b022e0a-a4c6-4e16-b9f6-bee9ef24a314",
+	"3747fd71-e4e4-4d47-a31f-7826aafe8e4a");
+INSERT INTO SPR_PO
+	VALUES ("3536c82c-8340-4104-91c3-cdf26a65588c",
+	'land',
+	'',
+	'',
+	3,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("1b022e0a-a4c6-4e16-b9f6-bee9ef24a314",
+	"c703e3a6-7a8a-4269-8c3c-4d399122b004",
+	-1,
+	'land',
+	'',
+	'../../Interfaces/mavcontrol/mavcontrol.xtuml');
+INSERT INTO SPR_PEP
+	VALUES ("2f9ab3bb-2254-45da-9c60-ece5a2c89070",
+	"0726afb2-6b2f-4e20-aedf-04c02bfe2408",
+	"3747fd71-e4e4-4d47-a31f-7826aafe8e4a");
+INSERT INTO SPR_PO
+	VALUES ("2f9ab3bb-2254-45da-9c60-ece5a2c89070",
+	'arm',
+	'',
+	'',
+	3,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("0726afb2-6b2f-4e20-aedf-04c02bfe2408",
+	"c703e3a6-7a8a-4269-8c3c-4d399122b004",
+	-1,
+	'arm',
+	'',
+	'../../Interfaces/mavcontrol/mavcontrol.xtuml');
+INSERT INTO SPR_PEP
+	VALUES ("1da873af-5ba3-4d3b-bf2d-451de4ca6268",
+	"c7393e29-c98e-48b7-9efd-c6f3b48b4e29",
+	"3747fd71-e4e4-4d47-a31f-7826aafe8e4a");
+INSERT INTO SPR_PO
+	VALUES ("1da873af-5ba3-4d3b-bf2d-451de4ca6268",
+	'set_destination',
+	'',
+	'',
+	3,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("c7393e29-c98e-48b7-9efd-c6f3b48b4e29",
+	"c703e3a6-7a8a-4269-8c3c-4d399122b004",
+	-1,
+	'set_destination',
+	'',
+	'../../Interfaces/mavcontrol/mavcontrol.xtuml');
+INSERT INTO SPR_PEP
+	VALUES ("d0d2127d-ba12-42b5-8b1f-9a9d87ad0c9e",
+	"a1326a99-4ca5-4557-b0f1-68b418c39139",
+	"3747fd71-e4e4-4d47-a31f-7826aafe8e4a");
+INSERT INTO SPR_PO
+	VALUES ("d0d2127d-ba12-42b5-8b1f-9a9d87ad0c9e",
+	'set_heading',
+	'',
+	'',
+	3,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("a1326a99-4ca5-4557-b0f1-68b418c39139",
+	"c703e3a6-7a8a-4269-8c3c-4d399122b004",
+	-1,
+	'set_heading',
+	'',
+	'../../Interfaces/mavcontrol/mavcontrol.xtuml');
+INSERT INTO SPR_PEP
+	VALUES ("accfa488-3a08-406a-9613-3f3f3814feec",
+	"7bf2f4c6-cac0-413f-9c75-5582cbfd32ef",
+	"3747fd71-e4e4-4d47-a31f-7826aafe8e4a");
+INSERT INTO SPR_PO
+	VALUES ("accfa488-3a08-406a-9613-3f3f3814feec",
+	'get_heading',
+	'',
+	'',
+	3,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("7bf2f4c6-cac0-413f-9c75-5582cbfd32ef",
+	"c703e3a6-7a8a-4269-8c3c-4d399122b004",
+	-1,
+	'get_heading',
+	'',
+	'../../Interfaces/mavcontrol/mavcontrol.xtuml');
+INSERT INTO SPR_PEP
+	VALUES ("34822630-0736-45c7-81c6-829e85a2c25f",
+	"4ffc9b4d-3bf2-489f-9d1c-42bcd791488f",
+	"3747fd71-e4e4-4d47-a31f-7826aafe8e4a");
+INSERT INTO SPR_PO
+	VALUES ("34822630-0736-45c7-81c6-829e85a2c25f",
+	'ready',
+	'',
+	'',
+	3,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("4ffc9b4d-3bf2-489f-9d1c-42bcd791488f",
+	"c703e3a6-7a8a-4269-8c3c-4d399122b004",
+	-1,
+	'ready',
+	'',
+	'../../Interfaces/mavcontrol/mavcontrol.xtuml');
+INSERT INTO C_I_PROXY
+	VALUES ("c703e3a6-7a8a-4269-8c3c-4d399122b004",
+	"00000000-0000-0000-0000-000000000000",
+	'mavcontrol',
+	'',
+	'../../Interfaces/mavcontrol/mavcontrol.xtuml');
+INSERT INTO PE_PE
+	VALUES ("a9477f94-c4d2-43b8-9741-5c57834f54b0",
+	1,
+	"ab6e3cfa-a455-4a97-8021-d9e914705952",
+	"00000000-0000-0000-0000-000000000000",
+	2);
+INSERT INTO EP_PKG_PROXY
+	VALUES ("ab6e3cfa-a455-4a97-8021-d9e914705952",
+	"0eef6426-e634-4af4-b183-e6345bdaccf8",
+	"0eef6426-e634-4af4-b183-e6345bdaccf8",
+	'Library',
+	'',
+	0,
+	'../Library.xtuml');
